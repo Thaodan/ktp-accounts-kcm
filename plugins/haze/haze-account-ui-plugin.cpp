@@ -29,6 +29,7 @@
 #include "haze-groupwise-account.h"
 #include "haze-steam-account.h"
 #include "haze-sipe-account.h"
+#include "haze-purplebook-account.h"
 
 #include <KPluginFactory>
 
@@ -47,6 +48,7 @@ HazeAccountUiPlugin::HazeAccountUiPlugin(QObject *parent, const QVariantList &)
     registerProvidedProtocol(QLatin1String("haze"), QLatin1String("groupwise"));
     registerProvidedProtocol(QLatin1String("haze"), QLatin1String("steam-mobile"));
     registerProvidedProtocol(QLatin1String("haze"), QLatin1String("sipe"));
+    registerProvidedProtocol(QLatin1String("haze"), QLatin1String("facebook"));
 }
 
 HazeAccountUiPlugin::~HazeAccountUiPlugin()
@@ -60,6 +62,8 @@ AbstractAccountUi* HazeAccountUiPlugin::accountUi(const QString &connectionManag
     if (connectionManager == QLatin1String("haze")) {
         if (protocol == QLatin1String("icq")) {
             return new HazeIcqAccountUi;
+        } else if (protocol == QLatin1String("facebook")) {
+            return new HazePurplebookAccountUi;    
         } else if (protocol == QLatin1String("myspace")) {
             return new HazeMySpaceIMAccountUi;
         } else if (protocol == QLatin1String("bigbrownchunx-skype-dbus")) {
@@ -78,7 +82,7 @@ AbstractAccountUi* HazeAccountUiPlugin::accountUi(const QString &connectionManag
             return new HazeSipeAccountUi;
         }
     }
-
+    
     return 0;
 }
 

@@ -33,6 +33,8 @@ set (ktpaccountskcm_plugin_haze_SRCS
      haze-sipe-account.cpp
      sipe-main-options-widget.cpp
      sipe-advanced-settings-widget.cpp
+     purplebook-options-widget.cpp
+     haze-purplebook-account.cpp
 )
 
 ki18n_wrap_ui (ktpaccountskcm_plugin_haze_SRCS
@@ -52,6 +54,7 @@ ki18n_wrap_ui (ktpaccountskcm_plugin_haze_SRCS
                    steam-main-options-widget.ui
                    sipe-main-options-widget.ui
                    sipe-advanced-settings-widget.ui
+                   purplebook-options-widget.ui
 )
 
 add_library (ktpaccountskcm_plugin_haze MODULE
