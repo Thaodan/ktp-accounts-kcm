@@ -1,10 +1,10 @@
 [Desktop Entry]
 Encoding=UTF-8
 Comment=Custom account configuration user interface for accounts using the Idle connection manager.
-Comment[ast]=Interfaz d'usuariu de configuración de cuenta personalizada pa cuentes qu'usen el xestor de conexones Idle.
+Comment[ast]=Interfaz d'usuariu de configuraciones personalizaes de cuentes pa cuentes qu'usen el xestor de conexones Idle.
 Comment[bs]=Korisnički interfejs za konfiguraciju korisničkih naloga koristeći Idle menadžer konekcja.
-Comment[ca]=Interfície d'usuari de configuració de compte personalitzat per comptes que utilitzen el gestor de connexions Idle.
-Comment[ca@valencia]=Interfície d'usuari de configuració de compte personalitzat per comptes que utilitzen el gestor de connexions Idle.
+Comment[ca]=Interfície d'usuari de configuració del compte personalitzat per a comptes que utilitzen el gestor de connexions Idle.
+Comment[ca@valencia]=Interfície d'usuari de configuració del compte personalitzat per a comptes que utilitzen el gestor de connexions Idle.
 Comment[cs]=Vlastní uživatelské rozhraní nastavení účtů pro účty používající správce spojení Idle.
 Comment[da]=Brugerflade til brugertilpasset kontokonfiguration til konti der bruger forbindelseshåndteringen Idle.
 Comment[de]=Eigene Benutzeroberfläche zum Einrichten von Zugängen, die die Idle-Verbindungsverwaltung verwenden.
@@ -25,6 +25,7 @@ Comment[lt]=Savito paskyros konfigūravimo naudotojo sąsaja paskyroms naudojant
 Comment[nb]=Brukerflate for å sette opp egendefinerte kontoer ved bruk av Idle tilkoblingsbehandler.
 Comment[nds]=Topasst Kontoinstellen-Böversiet för Kontos, de den Verbinnenpleger „Idle“ bruukt
 Comment[nl]=Gebruikersinterface voor aangepaste accountconfiguratie voor accounts die de Idle verbindingenbeheerder gebruiken.
+Comment[nn]=Brukarflate for å setja oppkontoar med Idle tilkoplingshandsamar.
 Comment[pl]=Dostosowana nakładka graficzna do ustawiania kont dla kont wykorzystujących usługę połączeń Idle.
 Comment[pt]=Interface de utilizador de configuração de contas personalizadas com o gestor de ligações Idle.
 Comment[pt_BR]=Interface de configuração de contas usando o gerenciador de conexões Idle.
