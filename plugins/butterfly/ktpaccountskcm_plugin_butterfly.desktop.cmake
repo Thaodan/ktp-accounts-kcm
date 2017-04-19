@@ -1,10 +1,10 @@
 [Desktop Entry]
 Encoding=UTF-8
 Comment=Custom account configuration user interface for accounts using the Butterfly connection manager.
-Comment[ast]=Interfaz d'usuariu de configuración de cuenta personalizada pa cuentes qu'usen el xestor de conexones Butterfly.
+Comment[ast]=Interfaz d'usuariu de configuraciones personalizaes de cuentes pa cuentes qu'usen el xestor de conexones Butterfly.
 Comment[bs]=Prilagođena konfiguracija korisničkog naloga pomoću upravitelja Butterfly veze.
-Comment[ca]=Interfície d'usuari de configuració de compte personalitzat per comptes que utilitzen el gestor de connexions Butterfly.
-Comment[ca@valencia]=Interfície d'usuari de configuració de compte personalitzat per comptes que utilitzen el gestor de connexions Butterfly.
+Comment[ca]=Interfície d'usuari de configuració del compte personalitzat per a comptes que utilitzen el gestor de connexions Butterfly.
+Comment[ca@valencia]=Interfície d'usuari de configuració del compte personalitzat per a comptes que utilitzen el gestor de connexions Butterfly.
 Comment[cs]=Vlastní uživatelské rozhraní nastavení účtů pro účty používající správce spojení Butterfly.
 Comment[da]=Brugerflade til brugertilpasset kontokonfiguration til konti der bruger forbindelseshåndteringen Butterfly.
 Comment[de]=Eigene Benutzeroberfläche zum Einrichten von Zugängen, die die Butterfly-Verbindungsverwaltung verwenden.
@@ -25,6 +25,7 @@ Comment[lt]=Savito paskyros konfigūravimo naudotojo sąsaja paskyroms naudojant
 Comment[nb]=Brukerflate for å sette opp egendefinerte kontoer ved bruk av Butterfly tilkoblingsbehandler.
 Comment[nds]=Topasst Kontoinstellen-Böversiet för Kontos, de den Verbinnenpleger „Butterfly“ bruukt
 Comment[nl]=Gebruikersinterface voor aangepaste accountconfiguratie voor accounts die de Butterfly verbindingenbeheerder gebruiken.
+Comment[nn]=Brukarflate for å setja oppkontoar med Butterfly tilkoplingshandsamar.
 Comment[pl]=Dostosowana nakładka graficzna do ustawiania kont dla kont wykorzystujących usługę połączeń Butterfly.
 Comment[pt]=Interface de utilizador de configuração de contas personalizadas com o gestor de ligações Butterfly.
 Comment[pt_BR]=Interface de configuração de contas usando o gerenciador de conexões Butterfly.
