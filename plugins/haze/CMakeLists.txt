@@ -34,6 +34,7 @@ set (ktpaccountskcm_plugin_haze_SRCS
      sipe-main-options-widget.cpp
      sipe-advanced-settings-widget.cpp
      skypeweb-options-widget.cpp
+     skypeweb-advanced-options-widget.cpp
      haze-skypeweb-account.cpp
 )
 
@@ -55,6 +56,7 @@ ki18n_wrap_ui (ktpaccountskcm_plugin_haze_SRCS
                    sipe-main-options-widget.ui
                    sipe-advanced-settings-widget.ui
                    skypeweb-options-widget.ui
+                   skypeweb-advanced-options-widget.ui
 )
 
 add_library (ktpaccountskcm_plugin_haze MODULE

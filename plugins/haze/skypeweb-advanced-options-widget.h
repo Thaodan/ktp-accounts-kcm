@@ -1,7 +1,7 @@
 /*
  * This file is part of telepathy-accounts-kcm
  *
- * Copyright (C) 2016 Björn Bidar <theodorstormgrade@gmail.com>
+ * Copyright (C) 2019 Björn Bidar <theodorstormgrade@gmail.com>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -18,30 +18,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-#ifndef KCMTELEPATHYACCOUNTS_PLUGIN_HAZE_SKYPEWEB_ACCOUNT_H
-#define KCMTELEPATHYACCOUNTS_PLUGIN_HAZE_SKYPEWEB_ACCOUNT_H
+#ifndef KCMTELEPATHYACCOUNTS_PLUGIN_HAZE_SKYPEWEB_ADVANCED_OPTIONS_WIDGET_H
+#define KCMTELEPATHYACCOUNTS_PLUGIN_HAZE_SKYPEWEB_ADVANCED_OPTIONS_WIDGET_H
 
-#include <KCMTelepathyAccounts/AbstractAccountUi>
+#include "ui_skypeweb-advanced-options-widget.h"
 
-class HazeSkypeWebAccountUi : public AbstractAccountUi
+#include <KCMTelepathyAccounts/AbstractAccountParametersWidget>
+
+class SkypeWebAdvancedOptionsWidget: public AbstractAccountParametersWidget
 {
     Q_OBJECT
 
 public:
-    explicit HazeSkypeWebAccountUi(QObject *parent = 0);
-    virtual ~HazeSkypeWebAccountUi();
-
-    virtual AbstractAccountParametersWidget
-              *mainOptionsWidget(ParameterEditModel *model,
-                                 QWidget *parent = 0) const override;
-    virtual bool hasAdvancedOptionsWidget() const override;
-    virtual AbstractAccountParametersWidget
-              *advancedOptionsWidget(ParameterEditModel *model,
-                                     QWidget *parent = 0) const override;
-
-
+    explicit SkypeWebAdvancedOptionsWidget(ParameterEditModel *model,
+                                       QWidget *parent = 0);
+    virtual ~SkypeWebAdvancedOptionsWidget();
 private:
-    Q_DISABLE_COPY(HazeSkypeWebAccountUi)
+    Q_DISABLE_COPY(SkypeWebAdvancedOptionsWidget)
+    Ui::SkypeWebAdvancedOptionsWidget *m_ui;
 };
+
 
 #endif // header guard

@@ -21,6 +21,7 @@
 #include "haze-skypeweb-account.h"
 
 #include "skypeweb-options-widget.h"
+#include "skypeweb-advanced-options-widget.h"
 
 #include <KCMTelepathyAccounts/AbstractAccountParametersWidget>
 
@@ -46,7 +47,16 @@ AbstractAccountParametersWidget *HazeSkypeWebAccountUi::mainOptionsWidget(
 
 bool HazeSkypeWebAccountUi::hasAdvancedOptionsWidget() const
 {
-    return false;
+    return true;
 }
-  
+
+AbstractAccountParametersWidget *HazeSkypeWebAccountUi::advancedOptionsWidget(
+        ParameterEditModel *model,
+        QWidget *parent) const
+{
+    AbstractAccountParametersWidget *skypeWebAdvancedOptionsWidget = new SkypeWebAdvancedOptionsWidget(model, parent);
+    return skypeWebAdvancedOptionsWidget;
+}
+
+
 #include "haze-skypeweb-account.moc"
